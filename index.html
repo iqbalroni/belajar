@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#"
+          ><i class="bi bi-person-rolodex"></i> PORTOFOLIO</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak Saya</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end-navbar -->
+
+    <!-- banner -->
+    <div class="banner d-flex align-items-center">
+      <div class="container">
+        <div class="text-center">
+          <img src="img/foto.jpg" class="img-foto" />
+          <h3 class="text-white mt-3">Mochammad Iqbal Roni Saputra</h3>
+          <p class="text-white m-auto mt-3">
+            Saya Iqbal Roni Sebagai Frontend,Backend & Mobile Developer.Frontend
+            dapat menguasai Bootstrap,React JS. Backend biasanya saya
+            menggunakan php dengan framework Laravel Dan untuk membuat aplikasi
+            berbasis android saya terbiasa menggunakan framework Flutter
+          </p>
+          <button class="btn btn-light btn-sm rounded-pill mt-3">
+            Selengkapnya <i class="bi bi-chevron-down"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end-banner -->
+
+    <!-- about -->
+    <div class="about d-flex align-items-center" id="about">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-sm-5">
+            <img src="img/developer.png" class="img-fluid" />
+          </div>
+          <div class="col-sm-6">
+            <h3 class="fw-bold text-dark mt-3">Tentang Saya</h3>
+            <h3 class="text-dark">Mochammad Iqbal Roni Saputra</h3>
+            <p>
+              Saya Iqbal Roni Sebagai Frontend,Backend & Mobile
+              Developer.Frontend dapat menguasai Bootstrap,React JS. Backend
+              biasanya saya menggunakan php dengan framework Laravel Dan untuk
+              membuat aplikasi berbasis android saya terbiasa menggunakan
+              framework Flutter
+            </p>
+            <button class="btn btn-dark rounded-pill">
+              <i class="bi bi-instagram"></i> Instagram
+            </button>
+            <button class="btn btn-light rounded-pill">
+              <i class="bi bi-github"></i> Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end-about -->
+
+    <!-- portofolio -->
+    <div class="portofolio d-flex align-items-center" id="portofolio">
+      <div class="container">
+        <h3 class="text-white fw-bold">Portofolio Saya</h3>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam odit
+          fuga asperiores vel vero maxime inventore adipisci voluptas
+          consequatur eligendi!
+        </p>
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="img/portofolio/Design logo.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Design logo</h5>
+                <p class="card-text">
+                  Design logo CodingSkuy menggunakan AdobeIlustrator dengan
+                  konsep code melambangkan codingan dan pensil yang melambangkan
+                  masih pemiliknya masih pelajar
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/portofolio glassmorphism.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">portofolio glassmorphism</h5>
+                <p class="card-text">
+                  Website ini di buat untuk memanfaatkan waktu luang saya untuk
+                  belajar frontend. website ini di buat dengan thema
+                  glassmorphism di waktu yang trend di tahun 2021
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Aplikasi Sholawat.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aplikasi Sholawat</h5>
+                <p class="card-text">
+                  Aplikasi ini di buat untuk memudahkan kita mencari sholawat.
+                  Aplikasi sholawat ini tidak memerlukan internet tapi masih
+                  versi terbaru dan di buat dengan bahasa pemograman
+                  Dart/Framework Flutter
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Design website Perabotan.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Design website Perabotan</h5>
+                <p class="card-text">Design website perabotan atau furniture</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Design Website MonoChrome.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Design Website MonoChrome</h5>
+                <p class="card-text">
+                  Design website thema MonoChrome dengan menggunakan aplikasi
+                  Photoshop
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/CodingSkuyApp.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">CodingSkuyApp</h5>
+                <p class="card-text">
+                  CodingSkuyApp adalah aplikasi untuk pembelajaran pemograman
+                  basic website seperti CSS,HTML,JS dan PHP. Tapi Aplikasi ini
+                  belum jadi atau masih stack belum ada perkembangan
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Design StreetWear.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Design StreetWear</h5>
+                <p class="card-text">
+                  Design ini digunakan untuk design pakaian atau fashion design
+                  ini menggunakan Photoshop
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Website Versi Windows 11.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Website Versi Windows 11</h5>
+                <p class="card-text">
+                  Website ini di gunakan untuk portofolio saya dan mengisi luang
+                  jam saya. pada saat pandemi dan tidak ada project saya
+                  mengerjakan sebuah website yang menyerupai windows 11
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Website Belajar.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Website Belajar</h5>
+                <p class="card-text">
+                  Website ini adalah web pertama kali saya menggunakan
+                  bootstrap.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Konten Instagram.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Konten Instagram</h5>
+                <p class="card-text">
+                  jika saya ada luang waktu saya akan meluangkan waktu untuk
+                  membuat konten instagram yang bertema tentang informatika
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Website Bot Nulis.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Website Bot Nulis</h5>
+                <p class="card-text">
+                  Website ini digunakan untuk yang malas nulis. saya membuat bot
+                  ini hanya mencoba studi kasus
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="img/portofolio/secreto.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">secreto</h5>
+                <p class="card-text">
+                  Secreto versi saya membuat game dengan laravel
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Frontend LandingPage.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Frontend LandingPage</h5>
+                <p class="card-text">
+                  Landing Page ini membuatnya menggunakan html,css,js
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Website Sekolah.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Website Sekolah</h5>
+                <p class="card-text">
+                  Website sekolah ini saya rebuild dari awal dari sisi frontend
+                  dan backend. Frontend menggunakan Bootstrap full custom dan
+                  Backend Menggunakan Laravel dengan versi 8 lebih lengkapnya
+                  kunjungi https://smkn1bws.sch.id/
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img
+                src="img/portofolio/Aplikasi Al quran.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aplikasi Al quran</h5>
+                <p class="card-text">
+                  Aplikasi quran ini di buat untuk belajar API dengan Flutter
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="img/portofolio/Design Kaos.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Design Kaos</h5>
+                <p class="card-text">
+                  Design kaos dengan thema streetwear dan membuat mockup
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end-portofolio -->
+
+    <div class="youtube d-flex align-items-center">
+      <div class="container">
+        <h3 class="fw-bold">My Youtube</h3>
+        <p class="">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Reprehenderit nihil rem facilis vitae iure. Consequuntur repudiandae
+          dolores
+        </p>
+        <iframe
+          width="100%"
+          height="500"
+          src="https://www.youtube.com/embed/e-aUx-XYq90"
+        >
+        </iframe>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="contact d-flex align-items-center" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63226.413192167056!2d113.79048261672723!3d-7.931488987354878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6dcdcd94f074d%3A0xe056035859f6e572!2sBondowoso%2C%20Bondowoso%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1663804677688!5m2!1sen!2sid"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-sm-6">
+            <form>
+              <h3 class="text-white fw-bold">Contact Us</h3>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus expedita fugiat ad, quae cupiditate non quam
+                praesentium impedit ex dolorem?
+              </p>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end-contact -->
+
+    <!-- footer -->
+    <div class="footer">
+      <p class="fw-bold text-white">@iqbalronii</p>
+    </div>
+    <!-- end-footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

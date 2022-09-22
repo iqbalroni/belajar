@@ -1,0 +1,111 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #7895b2;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.banner {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner .img-foto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #aebdca;
+}
+
+.banner p {
+  width: 60%;
+}
+
+.btn-white {
+  background-color: #7895b2;
+}
+
+.about {
+  padding: 10px;
+  min-height: 50vh;
+  background-color: #d8d8d8;
+}
+
+.portofolio {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: 100vh;
+  /* background-color: #d8d8d8; */
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url(../img/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.portofolio .card {
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.portofolio .card .card-body {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.portofolio .card:hover .card-body {
+  cursor: default;
+  color: white;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.portofolio .card img {
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.contact {
+  min-height: 100vh;
+  background-color: #7895b2;
+}
+.youtube {
+  min-height: 100vh;
+  background-color: #d8d8d8;
+}
+
+.youtube iframe {
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #596f85;
+  height: 40px;
+  text-align: center;
+}
+.footer p {
+  line-height: 40px;
+}
